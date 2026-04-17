@@ -14,15 +14,15 @@ A calorie and fitness tracking web app built with React and TypeScript. Log meal
 
 ## Tech Stack
 
-| Layer | Library |
-|---|---|
-| UI | React 19 + TypeScript |
-| Build | Vite 6 |
-| Styling | Tailwind CSS 4 |
-| Charts | Recharts |
-| Icons | Lucide React |
-| Animations | Motion |
-| Date handling | date-fns |
+| Layer         | Library                         |
+| ------------- | ------------------------------- |
+| UI            | React 19 + TypeScript           |
+| Build         | Vite 6                          |
+| Styling       | Tailwind CSS 4                  |
+| Charts        | Recharts                        |
+| Icons         | Lucide React                    |
+| Animations    | Motion                          |
+| Date handling | date-fns                        |
 | AI (optional) | Google Gemini (`@google/genai`) |
 
 ## Prerequisites
@@ -47,13 +47,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Available Scripts
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start dev server (port 3000, all interfaces) |
-| `npm run build` | Production build to `dist/` |
-| `npm run preview` | Preview production build locally |
-| `npm run lint` | Type-check with `tsc --noEmit` |
-| `npm run clean` | Remove `dist/` directory |
+| Command           | Description                                  |
+| ----------------- | -------------------------------------------- |
+| `npm run dev`     | Start dev server (port 3000, all interfaces) |
+| `npm run build`   | Production build to `dist/`                  |
+| `npm run preview` | Preview production build locally             |
+| `npm run lint`    | Type-check with `tsc --noEmit`               |
+| `npm run clean`   | Remove `dist/` directory                     |
 
 ## Project Structure
 
@@ -77,6 +77,6 @@ src/
 
 ## Environment Variables
 
-| Variable | Required | Description |
-|---|---|---|
-| `GEMINI_API_KEY` | No | Google Gemini API key for AI-assisted features |
+| Variable         | Required | Description                                    |
+| ---------------- | -------- | ---------------------------------------------- |
+| `GEMINI_API_KEY` | No       | Google Gemini API key for AI-assisted features |
